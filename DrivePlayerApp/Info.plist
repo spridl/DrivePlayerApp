@@ -2,11 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>API_Token</key>
+	<string>620074801035-n02u9nnvlc61nj6om3jr8ovrjqucadee.apps.googleusercontent.com</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.googleusercontent.apps.620074801035-n02u9nnvlc61nj6om3jr8ovrjqucadee</string>
+			<string></string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.620074801035-n02u9nnvlc61nj6om3jr8ovrjqucadee</string>
+			</array>
 		</dict>
 	</array>
 </dict>

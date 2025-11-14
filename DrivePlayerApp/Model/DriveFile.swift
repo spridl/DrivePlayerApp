@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct DriveFile: Identifiable, Hashable {
+    let id: String
+    let name: String
+    let mimeType: String
+}

@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct FilesListResponse: Codable {
+    let files: [DriveAPIFile]
+}
+
+struct DriveAPIFile: Codable {
+    let id: String
+    let name: String
+    let mimeType: String?
+}
